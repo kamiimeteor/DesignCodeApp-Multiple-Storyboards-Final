@@ -30,6 +30,7 @@ class HomeViewController: UIViewController {
         playerController.player = player
         present(playerController, animated: true) {
             player.play()
+            
         }
     }
 
