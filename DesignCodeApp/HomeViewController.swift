@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         present(playerController, animated: true) {
             player.play()
             
+            
         }
     }
 
